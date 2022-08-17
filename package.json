@@ -1,0 +1,24 @@
+{
+  "name": "homesitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinEkm/homesitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinEkm/homesitter/issues"
+  },
+  "homepage": "https://github.com/QuentinEkm/homesitter#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
