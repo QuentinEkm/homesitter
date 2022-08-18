@@ -10272,6 +10272,11 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: black;
 }
@@ -10284,9 +10289,21 @@ body {
   list-style: none;
 }
 
+.img2 {
+  display: none;
+}
+
 .row {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
@@ -10294,6 +10311,12 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: block;
   }
 }
 
